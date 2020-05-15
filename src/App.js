@@ -1,19 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import App from './Container/App/index.jsx';
-import Home from './Container/Home/index.jsx';
-import { BrowserRouter , Route } from 'react-router-dom';
-
+import App from './Containers/App/index.jsx';
+import Home from './Containers/Home/index.jsx';
+import { BrowserRouter , Route, Switch  } from 'react-router-dom';
+import routes from './routes'
 import { Provider }   from 'react-redux';
-import store from './store/index'; 
+import store from './store/index';
 
 function WebApp() {
   return (
     <Provider store={store}>
         <BrowserRouter >
-            <Route  path='/' exact component={App} />
-            <Route  path='/home' exact component={Home} />
+            <Switch>
+              { routes.map((route, index) => (
+                  // pass in the initialData from the server for this specific route
+                  <Route { ...route } key={ index }/>
+              )) }
+          </Switch>
         </BrowserRouter>
     </Provider>
 
