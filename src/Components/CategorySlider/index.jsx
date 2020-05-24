@@ -1,6 +1,8 @@
 // Imports
 import React from 'react'
-
+import {
+  Link
+} from "react-router-dom";
 
 export class CategorySliderComponent extends React.Component {
 
@@ -14,62 +16,62 @@ export class CategorySliderComponent extends React.Component {
                 <div className="category-slider-wrapper">
                   <div className="category-item">
                     <div className="category-item__image">
-                      <a href="shop.html">
+                      <Link to="/product-details">
                         <img src="assets/img/icons/category/cat1.svg" className="injectable" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="category-item__title">
-                      <a href="shop.html">Men</a>
+                      <Link to="/product-details">Men</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <a href="shop.html">
+                      <Link to="/product-details">
                         <img src="assets/img/icons/category/cat2.svg" className="injectable" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="category-item__title">
-                      <a href="shop.html">Women</a>
+                      <Link to="/product-details">Women</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <a href="shop.html">
+                      <Link to="/product-details">
                         <img src="assets/img/icons/category/cat3.svg" className="injectable" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="category-item__title">
-                      <a href="shop.html">Bag</a>
+                      <Link to="/product-details">Bag</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <a href="shop.html">
+                      <Link to="/product-details">
                         <img src="assets/img/icons/category/cat4.svg" className="injectable" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="category-item__title">
-                      <a href="shop.html">Cosmetics</a>
+                      <Link to="/product-details">Cosmetics</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <a href="shop.html">
+                      <Link to="/product-details">
                         <img src="assets/img/icons/category/cat5.svg" className="injectable" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="category-item__title">
-                      <a href="shop.html">Sports</a>
+                      <Link to="/product-details">Sports</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <a href="shop.html">
+                      <Link to="/product-details">
                         <img src="assets/img/icons/category/cat3.svg" className="injectable" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="category-item__title">
-                      <a href="shop.html">Bag</a>
+                      <Link to="/product-details">Bag</Link>
                     </div>
                   </div>
                 </div>

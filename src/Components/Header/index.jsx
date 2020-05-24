@@ -1,6 +1,8 @@
 // Imports
 import React from 'react'
-
+import {
+  Link
+} from "react-router-dom";
 export class HeaderComponent extends React.Component {
 
     render() {
@@ -10,9 +12,9 @@ export class HeaderComponent extends React.Component {
                       <div className="row align-items-center">
                         <div className="col-auto">
                           <div className="header-logo">
-                            <a href="index.html">
+                            <Link href="/">
                               <img src="assets/img/logo.png" className="img-fluid" alt="" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="col d-flex justify-content-center">

@@ -5,6 +5,8 @@ import React from 'react'
 import Home from './Containers/Home/index'
 import ProductDetails from './Containers/ProductDetails/index'
 import Checkout from './Containers/Checkout/index'
+import UserProfile from './Containers/UserProfile/index'
+import Error from './Containers/Error/index'
 // Routes
 const routes = [
     {
@@ -23,7 +25,15 @@ const routes = [
         exact: true
     },
     {
+        path: '/my-profile',
+        component: UserProfile,
+        exact: true
+    },
+    {
         path: '/?params:',
+        component: Error,
+    },
+    {
         component: Error,
     },
 ]
