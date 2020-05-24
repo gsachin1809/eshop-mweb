@@ -2,14 +2,23 @@
 import React,{ PureComponent } from 'react';
 import { connect } from 'react-redux';
 import * as action from './action';
-
+import { HeaderComponent } from '../../Components/Header/index';
+import { BannerComponent } from '../../Components/Banners/index';
+import { CategorySliderComponent } from '../../Components/CategorySlider/index';
+import { CategoryOffersComponent } from '../../Components/CategoryOffers/index';
+import { ProductGridDisplayComponent } from '../../Components/ProductGridDisplay/index';
+import { FooterComponent } from '../../Components/Footer/index';
 class Home extends React.Component {
 
     render() {
       console.log("props to display ",this.props);
-      return (<div >
-                home
-                <button onClick={()=>{this.props.updateArticals("newstring")}}> click to change  </button>
+      return (<div className="body-wrapper space-pt--70 space-pb--120">
+                  <HeaderComponent />
+                  <BannerComponent />
+                  <CategorySliderComponent />
+                  <CategoryOffersComponent />
+                  <ProductGridDisplayComponent />
+                  <FooterComponent />
               </div>)
     }
 
