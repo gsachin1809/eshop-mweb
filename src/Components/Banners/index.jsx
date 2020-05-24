@@ -2,33 +2,54 @@
 import React,{ PureComponent } from 'react'
 
 
-export class BannerComponent extends React.Component {
+export class BannersComponent extends React.Component {
 
     render() {
-      return (<div className="offcanvas-menu" id="offcanvas-menu">
-                <div className="profile-card text-center">
-                  <div className="profile-card__image space-mb--10">
-                    <img src="assets/img/profile.jpg" className="img-fluid" alt="" />
+      return (<div className="hero-slider bg-color--grey space-y--10">
+                  <div className="container">
+                    <div className="row row-10">
+                      <div className="col-12">
+                        <div className="hero-slider-wrapper">
+                          <div className="hero-slider-item d-flex bg-img" data-bg="assets/img/hero-slider/slider-1.jpg">
+                            <div className="container">
+                              <div className="row">
+                                <div className="col-12">
+                                  <div className="hero-slider-content">
+                                    <h2 className="hero-slider-content__title space-mb--10">Most popular <br /> Hand Bag</h2>
+                                    <p className="hero-slider-content__text">GET 30% OFF</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="hero-slider-item d-flex bg-img" data-bg="assets/img/hero-slider/slider-2.jpg">
+                            <div className="container">
+                              <div className="row">
+                                <div className="col-12">
+                                  <div className="hero-slider-content">
+                                    <h2 className="hero-slider-content__title space-mb--10">New Arrival <br /> Sport Shoes</h2>
+                                    <p className="hero-slider-content__text">GET 40% OFF</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="hero-slider-item d-flex bg-img" data-bg="assets/img/hero-slider/slider-3.jpg">
+                            <div className="container">
+                              <div className="row">
+                                <div className="col-12">
+                                  <div className="hero-slider-content">
+                                    <h2 className="hero-slider-content__title space-mb--10">Featured Product <br /> Summer Clothes</h2>
+                                    <p className="hero-slider-content__text">GET 50% OFF</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="profile-card__content">
-                    <p className="name">Don Normane <span className="id">ID MD 4350</span></p>
-                  </div>
-                </div>
-                <div className="offcanvas-navigation-wrapper space-mt--40">
-                  <ul className="offcanvas-navigation">
-                    <li><span className="icon"><img src="assets/img/icons/profile.svg" className="injectable" alt="" /></span><a href="login.html">Login / Sign up</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/profile-two.svg" className="injectable" alt="" /></span><a href="profile.html">My Profile</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/notification.svg" className="injectable" alt="" /></span><a href="notification.html">Notification</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/product.svg" className="injectable" alt="" /></span><a href="shop.html">All products</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/cart-two.svg" className="injectable" alt="" /></span><a href="order.html">My Order</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/cart-three.svg" className="injectable" alt="" /></span><a href="cart.html">Cart</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/wishlist.svg" className="injectable" alt="" /></span><a href="wishlist.html">Wishlist</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/gear-two.svg" className="injectable" alt="" /></span><a href="edit-profile.html">Settings</a></li>
-                    <li><span className="icon"><img src="assets/img/icons/profile.svg" className="injectable" alt="" /></span><a href="contact.html">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>)
+                </div>)
     }
-
-
 }

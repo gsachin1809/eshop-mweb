@@ -1,5 +1,5 @@
 // Imports
-import React,{ PureComponent } from 'react'
+import React from 'react'
 
 
 export class FooterComponent extends React.Component {

@@ -3,7 +3,8 @@ import React,{ PureComponent } from 'react';
 import { connect } from 'react-redux';
 import * as action from './action';
 import { HeaderComponent } from '../../Components/Header/index';
-import { BannerComponent } from '../../Components/Banners/index';
+import { BannersComponent } from '../../Components/Banners/index';
+import { SideNavBarComponent } from '../../Components/SideNavBar/index';
 import { CategorySliderComponent } from '../../Components/CategorySlider/index';
 import { CategoryOffersComponent } from '../../Components/CategoryOffers/index';
 import { ProductGridDisplayComponent } from '../../Components/ProductGridDisplay/index';
@@ -14,7 +15,8 @@ class Home extends React.Component {
       console.log("props to display ",this.props);
       return (<div className="body-wrapper space-pt--70 space-pb--120">
                   <HeaderComponent />
-                  <BannerComponent />
+                  <SideNavBarComponent />
+                  <BannersComponent />
                   <CategorySliderComponent />
                   <CategoryOffersComponent />
                   <ProductGridDisplayComponent />
