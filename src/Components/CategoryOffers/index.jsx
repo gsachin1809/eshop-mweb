@@ -16,9 +16,9 @@ export class CategoryOffersComponent extends React.Component {
                     <div className="col-4">
                       <div className="featured-product space-mb--15">
                         <div className="featured-product__image">
-                          <a href="shop-product.html">
+                          <Link to="/product-details">
                             <img src="assets/img/products/featured/product1.png" className="img-fluid" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="featured-product__content">
                           <div className="price">
@@ -34,9 +34,9 @@ export class CategoryOffersComponent extends React.Component {
                     <div className="col-4">
                       <div className="featured-product space-mb--15">
                         <div className="featured-product__image">
-                          <a href="shop-product.html">
+                          <Link to="/product-details">
                             <img src="assets/img/products/featured/product2.png" className="img-fluid" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="featured-product__content">
                           <div className="price">
@@ -52,9 +52,9 @@ export class CategoryOffersComponent extends React.Component {
                     <div className="col-4">
                       <div className="featured-product space-mb--15">
                         <div className="featured-product__image">
-                          <a href="shop-product.html">
+                          <Link to="/product-details">
                             <img src="assets/img/products/featured/product3.png" className="img-fluid" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="featured-product__content">
                           <div className="price">

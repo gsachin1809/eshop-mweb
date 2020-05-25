@@ -16,62 +16,62 @@ export class CategorySliderComponent extends React.Component {
                 <div className="category-slider-wrapper">
                   <div className="category-item">
                     <div className="category-item__image">
-                      <Link to="/product-details">
+                      <Link to="/category-details">
                         <img src="assets/img/icons/category/cat1.svg" className="injectable" alt="" />
                       </Link>
                     </div>
                     <div className="category-item__title">
-                      <Link to="/product-details">Men</Link>
+                      <Link to="/category-details">Men</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <Link to="/product-details">
+                      <Link to="/category-details">
                         <img src="assets/img/icons/category/cat2.svg" className="injectable" alt="" />
                       </Link>
                     </div>
                     <div className="category-item__title">
-                      <Link to="/product-details">Women</Link>
+                      <Link to="/category-details">Women</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <Link to="/product-details">
+                      <Link to="/category-details">
                         <img src="assets/img/icons/category/cat3.svg" className="injectable" alt="" />
                       </Link>
                     </div>
                     <div className="category-item__title">
-                      <Link to="/product-details">Bag</Link>
+                      <Link to="/category-details">Bag</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <Link to="/product-details">
+                      <Link to="/category-details">
                         <img src="assets/img/icons/category/cat4.svg" className="injectable" alt="" />
                       </Link>
                     </div>
                     <div className="category-item__title">
-                      <Link to="/product-details">Cosmetics</Link>
+                      <Link to="/category-details">Cosmetics</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <Link to="/product-details">
+                      <Link to="/category-details">
                         <img src="assets/img/icons/category/cat5.svg" className="injectable" alt="" />
                       </Link>
                     </div>
                     <div className="category-item__title">
-                      <Link to="/product-details">Sports</Link>
+                      <Link to="/category-details">Sports</Link>
                     </div>
                   </div>
                   <div className="category-item">
                     <div className="category-item__image">
-                      <Link to="/product-details">
+                      <Link to="/category-details">
                         <img src="assets/img/icons/category/cat3.svg" className="injectable" alt="" />
                       </Link>
                     </div>
                     <div className="category-item__title">
-                      <Link to="/product-details">Bag</Link>
+                      <Link to="/category-details">Bag</Link>
                     </div>
                   </div>
                 </div>

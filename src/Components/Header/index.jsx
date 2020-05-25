@@ -12,7 +12,7 @@ export class HeaderComponent extends React.Component {
                       <div className="row align-items-center">
                         <div className="col-auto">
                           <div className="header-logo">
-                            <Link href="/">
+                            <Link to="/">
                               <img src="assets/img/logo.png" className="img-fluid" alt="" />
                             </Link>
                           </div>
