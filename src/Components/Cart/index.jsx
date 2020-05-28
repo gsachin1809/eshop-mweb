@@ -11,12 +11,12 @@ export class CartComponent extends React.Component {
                   <div className="cart-product border-bottom--medium">
                     <div className="cart-product__image">
                       <a href="shop-product.html">
-                        <img src="assets/img/products/product1.png" className="img-fluid" alt="" />
+                        <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1535629119/xzofqbmdvpbolez1mdrv/scalpe-plus-anti-dandruff-shampoo.jpg" className="img-fluid" alt="" />
                       </a>
                     </div>
                     <div className="cart-product__content">
-                      <h3 className="title"><a href="shop-product.html">Leather Bag</a></h3>
-                      <span className="category">Bag</span>
+                      <h3 className="title"><a href="shop-product.html">Scalpe Plus Anti-Dandruff Shampoo</a></h3>
+                      <span className="category">Shampoo</span>
                       <div className="price">
                         <span className="main-price">$460</span>
                         <span className="discounted-price">$320</span>
@@ -31,12 +31,12 @@ export class CartComponent extends React.Component {
                   <div className="cart-product border-bottom--medium">
                     <div className="cart-product__image">
                       <a href="shop-product.html">
-                        <img src="assets/img/products/product2.png" className="img-fluid" alt=""/>
+                        <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1558444079/zeiq9jr7vqrdggzwzfyo/st.botanica-ultra-nourishing-hair-shampoo.jpg" className="img-fluid" alt=""/>
                       </a>
                     </div>
                     <div className="cart-product__content">
-                      <h3 className="title"><a href="shop-product.html">Lipstick</a></h3>
-                      <span className="category">Cosmetics</span>
+                      <h3 className="title"><a href="shop-product.html">St.Botanica Ultra Nourishing Hair Shampoo</a></h3>
+                      <span className="category">Shampoo</span>
                       <div className="price">
                         <span className="main-price">$4</span>
                         <span className="discounted-price">$3</span>
@@ -51,12 +51,12 @@ export class CartComponent extends React.Component {
                   <div className="cart-product border-bottom--medium">
                     <div className="cart-product__image">
                       <a href="shop-product.html">
-                        <img src="assets/img/products/product3.png" className="img-fluid" alt=""/>
+                        <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1530699243/gspsi8e7o6gtsrq4fvz5/jeevan-ras-mukti-gold-hairwash-shampoo.png" className="img-fluid" alt=""/>
                       </a>
                     </div>
                     <div className="cart-product__content">
-                      <h3 className="title"><a href="shop-product.html">Sports shoe</a></h3>
-                      <span className="category">Show</span>
+                      <h3 className="title"><a href="shop-product.html">Jeevan Ras Mukti Gold Hairwash Shampoo</a></h3>
+                      <span className="category">Shampoo</span>
                       <div className="price">
                         <span className="main-price">$60</span>
                         <span className="discounted-price">$20</span>

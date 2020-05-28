@@ -1,6 +1,8 @@
 // Imports
 import React from 'react'
-
+import {
+  Link
+} from "react-router-dom";
 
 export class CheckoutComponent extends React.Component {
 
@@ -10,7 +12,7 @@ export class CheckoutComponent extends React.Component {
                     <div className="row">
                       <div className="col-12">
                         <div className="checkout-form">
-                          <form>
+                          <div>
                             <div className="checkout-form__single-field space-mb--30">
                               <label htmlFor="fullName">Full Name</label>
                               <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" />
@@ -66,8 +68,8 @@ export class CheckoutComponent extends React.Component {
                                 </div>
                               </div>
                             </div>
-                            <button className="checkout-form__button">Place Order</button>
-                          </form>
+                            <button className="checkout-form__button"><Link to="/order-confirm" >Place Order</Link></button>
+                          </div>
                         </div>
                       </div>
                     </div>

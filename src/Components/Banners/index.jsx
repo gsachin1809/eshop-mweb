@@ -1,10 +1,58 @@
 // Imports
 import React,{ PureComponent } from 'react'
-
-
+import Carousel from 'react-bootstrap/Carousel'
+import './assests/style.css';
 export class BannersComponent extends React.Component {
 
+    renderBannerDisplay = () => {
+      return (
+        <div>
+          <Carousel>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="/assets/img/banner_1.png"
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h3></h3>
+                  <p></p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="/assets/img/banner_2.png"
+                  alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                  <h3></h3>
+                  <p></p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="/assets/img/banner_3.png"
+                  alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                  <h3></h3>
+                  <p></p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+        </div>
+
+      )
+    }
+
+
+
     render() {
+      return (this.renderBannerDisplay())
       return (<div className="hero-slider bg-color--grey space-y--10">
                   <div className="container">
                     <div className="row row-10">

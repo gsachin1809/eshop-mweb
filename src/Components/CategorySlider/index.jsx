@@ -3,10 +3,43 @@ import React from 'react'
 import {
   Link
 } from "react-router-dom";
+import './assests/style.css';
+import Slider from "react-slick";
+import {Image,Container} from 'react-bootstrap'
 
 export class CategorySliderComponent extends React.Component {
 
+    displayTesting = () => {
+      const settings = {
+                          dots: true,
+                          infinite: true,
+                          speed: 500,
+                          slidesToShow: 3,
+                          slidesToScroll: 1
+                        };
+      return <div className="categorySection">
+                <Container>
+                <h5>Service</h5>
+                <Slider {...settings}>
+                  <div>
+                    <Image src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1562926079/ozbusoyfoixrvhufwe4n.png" width="100px" roundedCircle/>
+                  </div>
+                  <div>
+                    <Image src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1579602672/fejyebkvnkilca1vua4l.png" width="100px" roundedCircle/>
+                  </div>
+                  <div>
+                    <Image src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590602237/fjxqzyitg1v1ugb78jwb.png" width="100px" roundedCircle/>
+                  </div>
+                  <div>
+                    <Image src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1561119957/hnui9xsoxvea3iq74joe.png" width="100px" roundedCircle/>
+                  </div>
+                </Slider>
+              </Container>
+            </div>
+    }
+
     render() {
+      return this.displayTesting()
       return (
         <div className="category-slider-area bg-color--grey space-pb--25 space-mb--25">
           <div className="container">

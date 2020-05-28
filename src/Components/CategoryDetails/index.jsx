@@ -75,13 +75,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product1.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1572955772/eekt9flkkfdmsixnf9zs/dabur-chyawanprash-1kg-get-dabur-honey-50g-free.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Leather Bag</a></h3>
+                          <h3 className="title"><Link to="/product-details">Leather Bag</Link></h3>
                           <span className="category">Bag</span>
                           <div className="price">
                             <span className="main-price">$460</span>
@@ -93,13 +93,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product2.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1561716633/xw3zrxtvk9nlhcyyulpf/dabur-lal-tail.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Lipstick</a></h3>
+                          <h3 className="title"><Link to="/product-details">Lipstick</Link></h3>
                           <span className="category">Cosmetics</span>
                           <div className="price">
                             <span className="main-price">$40</span>
@@ -111,13 +111,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product3.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1527769424/l928qlv77jezvua2xdid/dabur-pudin-hara-pearls.jpg" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Sports Shoe</a></h3>
+                          <h3 className="title"><Link to="/product-details">Sports Shoe</Link></h3>
                           <span className="category">Shoe</span>
                           <div className="price">
                             <span className="main-price">$50</span>
@@ -129,13 +129,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product4.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1577364618/ijkfqbwu5y7i9fm1rhde/dabur-honey-squeezy-buy-1-get-1-free.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Premium Shoe</a></h3>
+                          <h3 className="title"><Link to="/product-details">Premium Shoe</Link></h3>
                           <span className="category">Shoe</span>
                           <div className="price">
                             <span className="main-price">$150</span>
@@ -147,13 +147,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product1.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1572955772/eekt9flkkfdmsixnf9zs/dabur-chyawanprash-1kg-get-dabur-honey-50g-free.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Leather Bag</a></h3>
+                          <h3 className="title"><Link to="/product-details">Leather Bag</Link></h3>
                           <span className="category">Bag</span>
                           <div className="price">
                             <span className="main-price">$460</span>
@@ -165,13 +165,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product2.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1561716633/xw3zrxtvk9nlhcyyulpf/dabur-lal-tail.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Lipstick</a></h3>
+                          <h3 className="title"><Link to="/product-details">Lipstick</Link></h3>
                           <span className="category">Cosmetics</span>
                           <div className="price">
                             <span className="main-price">$40</span>
@@ -183,13 +183,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product3.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1527769424/l928qlv77jezvua2xdid/dabur-pudin-hara-pearls.jpg" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Sports Shoe</a></h3>
+                          <h3 className="title"><Link to="/product-details">Sports Shoe</Link></h3>
                           <span className="category">Shoe</span>
                           <div className="price">
                             <span className="main-price">$50</span>
@@ -201,13 +201,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product4.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1577364618/ijkfqbwu5y7i9fm1rhde/dabur-honey-squeezy-buy-1-get-1-free.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Premium Shoe</a></h3>
+                          <h3 className="title"><Link to="/product-details">Premium Shoe</Link></h3>
                           <span className="category">Shoe</span>
                           <div className="price">
                             <span className="main-price">$150</span>
@@ -219,13 +219,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product1.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1572955772/eekt9flkkfdmsixnf9zs/dabur-chyawanprash-1kg-get-dabur-honey-50g-free.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Leather Bag</a></h3>
+                          <h3 className="title"><Link to="/product-details">Leather Bag</Link></h3>
                           <span className="category">Bag</span>
                           <div className="price">
                             <span className="main-price">$460</span>
@@ -237,13 +237,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product2.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1561716633/xw3zrxtvk9nlhcyyulpf/dabur-lal-tail.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Lipstick</a></h3>
+                          <h3 className="title"><Link to="/product-details">Lipstick</Link></h3>
                           <span className="category">Cosmetics</span>
                           <div className="price">
                             <span className="main-price">$40</span>
@@ -255,13 +255,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product3.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1527769424/l928qlv77jezvua2xdid/dabur-pudin-hara-pearls.jpg" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Sports Shoe</a></h3>
+                          <h3 className="title"><Link to="/product-details">Sports Shoe</Link></h3>
                           <span className="category">Shoe</span>
                           <div className="price">
                             <span className="main-price">$50</span>
@@ -273,13 +273,13 @@ export class CategoryDetailsComponent extends React.Component {
                     <div className="col-6">
                       <div className="grid-product space-mb--20">
                         <div className="grid-product__image">
-                          <a href="shop-product.html">
-                            <img src="assets/img/products/product4.png" className="img-fluid" alt="" />
-                          </a>
+                          <Link to="/product-details">
+                            <img src="https://res.cloudinary.com/du8msdgbj/images/w_150,h_150,c_fit,q_auto,f_auto/v1577364618/ijkfqbwu5y7i9fm1rhde/dabur-honey-squeezy-buy-1-get-1-free.png" className="img-fluid" alt="" />
+                          </Link>
                           <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                         </div>
                         <div className="grid-product__content">
-                          <h3 className="title"><a href="shop-product.html">Premium Shoe</a></h3>
+                          <h3 className="title"><Link to="/product-details">Premium Shoe</Link></h3>
                           <span className="category">Shoe</span>
                           <div className="price">
                             <span className="main-price">$150</span>

@@ -1,6 +1,8 @@
 // Imports
 import React from 'react'
-
+import {
+  Link
+} from "react-router-dom";
 
 export class ProductGridDisplayComponent extends React.Component {
 
@@ -16,13 +18,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product1.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590598638/lltihmv1zlireeiz4bl1.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Leather Bag</a></h3>
+                                <h3 className="title"><Link to="/product-details">Leather Bag</Link></h3>
                                 <span className="category">Bag</span>
                                 <div className="price">
                                   <span className="main-price">$460</span>
@@ -34,13 +36,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product2.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1588747197/zr1lywget5yjgwes8bsf.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Lipstick</a></h3>
+                                <h3 className="title"><Link to="/product-details">Lipstick</Link></h3>
                                 <span className="category">Cosmetics</span>
                                 <div className="price">
                                   <span className="main-price">$40</span>
@@ -52,13 +54,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product3.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590644148/hyskxqqxzlafkzdbjjp5.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Sports Shoe</a></h3>
+                                <h3 className="title"><Link to="/product-details">Sports Shoe</Link></h3>
                                 <span className="category">Shoe</span>
                                 <div className="price">
                                   <span className="main-price">$50</span>
@@ -70,13 +72,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product4.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590584005/bbmcgfvlkxcmlfcgchlh.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Premium Shoe</a></h3>
+                                <h3 className="title"><Link to="/product-details">Premium Shoe</Link></h3>
                                 <span className="category">Shoe</span>
                                 <div className="price">
                                   <span className="main-price">$150</span>
@@ -88,13 +90,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product1.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590598638/lltihmv1zlireeiz4bl1.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Leather Bag</a></h3>
+                                <h3 className="title"><Link to="/product-details">Leather Bag</Link></h3>
                                 <span className="category">Bag</span>
                                 <div className="price">
                                   <span className="main-price">$460</span>
@@ -106,13 +108,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product2.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1588747197/zr1lywget5yjgwes8bsf.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Lipstick</a></h3>
+                                <h3 className="title"><Link to="/product-details">Lipstick</Link></h3>
                                 <span className="category">Cosmetics</span>
                                 <div className="price">
                                   <span className="main-price">$40</span>
@@ -124,13 +126,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product3.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590644148/hyskxqqxzlafkzdbjjp5.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Sports Shoe</a></h3>
+                                <h3 className="title"><Link to="/product-details">Sports Shoe</Link></h3>
                                 <span className="category">Shoe</span>
                                 <div className="price">
                                   <span className="main-price">$50</span>
@@ -142,13 +144,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product4.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590584005/bbmcgfvlkxcmlfcgchlh.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Premium Shoe</a></h3>
+                                <h3 className="title"><Link to="/product-details">Premium Shoe</Link></h3>
                                 <span className="category">Shoe</span>
                                 <div className="price">
                                   <span className="main-price">$150</span>
@@ -160,13 +162,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product1.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590598638/lltihmv1zlireeiz4bl1.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Leather Bag</a></h3>
+                                <h3 className="title"><Link to="/product-details">Leather Bag</Link></h3>
                                 <span className="category">Bag</span>
                                 <div className="price">
                                   <span className="main-price">$460</span>
@@ -178,13 +180,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product2.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1588747197/zr1lywget5yjgwes8bsf.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Lipstick</a></h3>
+                                <h3 className="title"><Link to="/product-details">Lipstick</Link></h3>
                                 <span className="category">Cosmetics</span>
                                 <div className="price">
                                   <span className="main-price">$40</span>
@@ -196,13 +198,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product3.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590644148/hyskxqqxzlafkzdbjjp5.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Sports Shoe</a></h3>
+                                <h3 className="title"><Link to="/product-details">Sports Shoe</Link></h3>
                                 <span className="category">Shoe</span>
                                 <div className="price">
                                   <span className="main-price">$50</span>
@@ -214,13 +216,13 @@ export class ProductGridDisplayComponent extends React.Component {
                           <div className="col-6">
                             <div className="grid-product space-mb--20">
                               <div className="grid-product__image">
-                                <a href="shop-product.html">
-                                  <img src="assets/img/products/product4.png" className="img-fluid" alt="" />
-                                </a>
+                                <Link to="/product-details">
+                                  <img src="https://res.cloudinary.com/du8msdgbj/image/upload/w_150,h_150,c_fit,a_ignore,q_auto,f_auto/v1590584005/bbmcgfvlkxcmlfcgchlh.png" className="img-fluid" alt="" />
+                                </Link>
                                 <button className="icon"><img src="assets/img/icons/heart-dark.svg" className="injectable" alt="" /></button>
                               </div>
                               <div className="grid-product__content">
-                                <h3 className="title"><a href="shop-product.html">Premium Shoe</a></h3>
+                                <h3 className="title"><Link to="/product-details">Premium Shoe</Link></h3>
                                 <span className="category">Shoe</span>
                                 <div className="price">
                                   <span className="main-price">$150</span>

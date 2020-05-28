@@ -13,7 +13,7 @@ export class HeaderComponent extends React.Component {
                         <div className="col-auto">
                           <div className="header-logo">
                             <Link to="/">
-                              <img src="assets/img/logo.png" className="img-fluid" alt="" />
+                              <img src="assets/img/logo.png" className="img-fluid" alt="" width="65px" />
                             </Link>
                           </div>
                         </div>
@@ -21,7 +21,7 @@ export class HeaderComponent extends React.Component {
                           <div className="header-search">
                             <form>
                               <input type="text" id="header-search-input" placeholder="Search anything" />
-                              <img src="assets/img/icons/search.svg" className="injectable" alt="" />
+                              {/* <img src="assets/img/icons/search.svg" className="injectable" alt="" /> */}
                             </form>
                           </div>
                         </div>
